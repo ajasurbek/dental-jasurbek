@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dental clinic</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body class="body">
   <h1 class="visually-hidden">
     Welcome to the dental clinic
   </h1>
+  <!-- HEADER  -->
   <header class="site-header site-header--nojs">
     <div class="header__container container">
       <div class="site-header__container">
@@ -41,7 +42,6 @@
             </span>
           </div>
         </div>
-
       </div>
       <nav class="sitenav site-header__sitenav">
         <ul class="sitenav__list site-header__sitenav-list">
@@ -78,7 +78,6 @@
             </a>
           </li>
         </ul>
-
         <!-- <button class="site-header__toggler knopka" type="button" aria-label="Site header toggler"></button> -->
       </nav>
     </div>
@@ -86,15 +85,15 @@
   <!-- HERO -->
   <section class="hero section">
     <picture class="hero__img">
-      <img  src="img/kelnoyi.png"alt="girl" width="1920" height="900">
+      <img  src="img/kelnoyi.png" alt="girl" width="1920" height="900">
     </picture>
     <div class="container hero__container">
       <p class="hero__text">
         Modern technology and expert-class dentists
       </p>
-      <h1 class="hero__heading">
+      <h2 class="hero__heading">
         get a brilliant smile for every day
-      </h1>
+      </h2>
       <button class="button hero__button">
         get
       </button>
@@ -109,10 +108,12 @@
     <div class="container appointment__container">
       <ul class="appointment__list">
         <li class="appointment__item">
+          <h2 class="visually-hidden">
+            appointment
+          </h2>
           <h3 class="appointment__heading">Treatment</h3>
           <div class="appointment__text">All types of dental treatment are carried out using the most modern technologies.</div>
         </li>
-
         <li class="appointment__item">
           <h3 class="appointment__heading">Prosthetics</h3>
           <div class="appointment__text">We will help you find the most convenient and aesthetically attractive version of the prosthesis.</div>
@@ -136,7 +137,6 @@
             <span class="form__check-icon"></span>
           </label>
         </div>
-
         <button class="from__button button" type="submit">Appointment</button>
       </form>
     </div>
@@ -180,7 +180,6 @@
             <span class="service__price">3100₽</span>
           </li>
         </ul>
-
         <button class="services__button services__button-right" type="button" aria-label="Next"></button>
       </div>
     </div>
@@ -192,13 +191,10 @@
       <img src="img/pic-dentist-girl.jpg" srcset="img/pic-dentist-girl.jpg 1x, img/pic-dentist-girl@x.jpg 2x" alt="girl">
     </div>
 
-
-
     <div class="technology__right-box technology__container container">
-
       <div class="bg__logo">
         <h2 class="technology__heading">Modern technology and  expert-class dentists</h2>
-      <p class="technology__text">Even the best doctor is not able to “squeeze” out of technology more than the potential that manufacturers have laid in it. This primarily relates to medical equipment and instruments. Therefore, the better equipped the dental clinic is, the better, safer and faster the work is done. We do not consider it possible to save on technology and tools. Everything that is worthy of the attention of professional dentists is already with us.</p>
+        <p class="technology__text">Even the best doctor is not able to “squeeze” out of technology more than the potential that manufacturers have laid in it. This primarily relates to medical equipment and instruments. Therefore, the better equipped the dental clinic is, the better, safer and faster the work is done. We do not consider it possible to save on technology and tools. Everything that is worthy of the attention of professional dentists is already with us.</p>
       </div>
       <ul class="technology__list">
         <li class="technology__item technology__item-first">
@@ -222,138 +218,132 @@
           </li>
         </ul>
       </div>
-  </section>
+    </section>
 
-  <!-- TEAM -->
-  <section class="team container">
-    <div class="container team__container">
-      <div class="bg__logo">
-        <h2 class="team__heading">Professional team</h2>
-        <p class="team__text">Dental Practice employs orthodontists and orthopedists, surgeons and therapists, as well as children's dentists. All 13 dentists of our center are highly qualified specialists with extensive experience.</p>
-      </div>
-    </div>
-    <div class="team__bottom">
-      <button class="services__button services__button-left" type="button" aria-label="Prev"></button>
-
-      <ul class="team__list">
-        <li class="team__item doctor">
-          <img class="doctor__img" src="img/person-anna.jpg" alt="anna" srcset="img/person-anna.jpg 1x,img/person-anna@2.jpg 2x" width="300" height="350">
-          <h3 class="doctor__name">Anna Petrova</h3>
-          <div class="doctor__profession">Expert-class dentist</div>
-        </li>
-        <li class="team__item doctor">
-          <img class="doctor__img" src="img/person-ivan.jpg" srcset="img/person-ivan.jpg 1x, img/person-ivan@2.jpg 2x" alt="ivan" srcset="" width="300" height="350">
-          <h3 class="doctor__name">Ivan Ivanov</h3>
-          <div class="doctor__profession">Expert-class dentist</div>
-        </li>
-        <li class="team__item doctor">
-          <img class="doctor__img" src="img/person-larisa.jpg" srcset="img/person-larisa.jpg 1x, img/person-larisa@2.jpg 2x" alt="larisa" srcset="" width="300" height="350">
-          <h3 class="doctor__name">Larisa Vasileva</h3>
-          <div class="doctor__profession">Expert-class dentist</div>
-        </li>
-      </ul>
-
-      <button class="services__button services__button-right" type="button" aria-label="Next"></button>
-    </div>
-</section>
-   <!-- QUALITY -->
-   <section class="quality">
-
-    <div class="quality__container  container">
-      <h2 class="quality__heading bg__logo">We are confident in the quality of our services</h2>
-      <p class="quality__text">About 50 thousand patients opted for the Dental Practice dental center.
-        People come to us as a family, because trust and comfort are important for the health of loved ones. And we provide this:
-        - You do not need to go anywhere else - the center provides the whole range of dental services - treatment and diagnosis, as well as prevention.
-        - We have reasonable prices. You pay for quality. And you will be offered different opportunities.
-        - We also do not pursue cheapness. This is our reasonable choice - only good materials should be used in the treatment, and professionals should deal with it.
-        - For regular customers discounts from 5 to 20%.</p>
-
-        <div class="quality__box">
-          <img   src="img/syg.jpg" srcset="img/syg.jpg 1x, img/syg@2.jpg 2x" alt="sygnatura"  class="quality__sygnatura" width="85" height="70">
-        <button class="quality__button button">
-          Learn more
-        </button>
-        </div>
-    </div>
-    <img class="quality__img" src="img/gurl_hand.jpg" srcset="img/gurl_hand.jpg 1x, img/gurl_hand.jpg2x" alt="girl">
-
-  </section>
-
-  <!-- FEEDBACK -->
-  <section class="feedback">
-    <div class="container">
-      <div class="feedback__container">
-        <div class="feeback__box bg__logo">
-          <h2 class="feedback__heading">Reviews from our patients</h2>
-          <p class="feedback__text ">Here are the latest reviews from our regular customers.
-            You can also leave your review by clicking on the link below</p>
+    <!-- TEAM -->
+    <section class="team container">
+      <div class="container team__container">
+        <div class="bg__logo">
+          <h2 class="team__heading">Professional team</h2>
+          <p class="team__text">Dental Practice employs orthodontists and orthopedists, surgeons and therapists, as well as children's dentists. All 13 dentists of our center are highly qualified specialists with extensive experience.</p>
         </div>
       </div>
-      <div class="feedback__bottom">
+      <div class="team__bottom">
+        <button class="services__button services__button-left" type="button" aria-label="Prev"></button>
 
-        <ul class="feedback__list container">
-          <li class="feedback__item person">
-            <img class="person__img" src="img/ivan.jpg" srcset="img/ivan.jpg 1x, img/ivan@2.jpg 2x" alt="ivan" width="404" height="270">
-            <h3 class="person__name">Ivanov Ivan</h3>
-            <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <ul class="team__list">
+          <li class="team__item doctor">
+            <img class="doctor__img" src="img/person-anna.jpg" alt="anna" srcset="img/person-anna.jpg 1x,img/person-anna@2.jpg 2x" width="300" height="350">
+            <h3 class="doctor__name">Anna Petrova</h3>
+            <div class="doctor__profession">Expert-class dentist</div>
           </li>
-          <li class="feedback__item person">
-            <img class="person__img" src="img/vasili.jpg" srcset="img/vasili.jpg 1x, img/vasili@2.jpg 2x" alt="ivan" srcset="vasili" width="404" height="270">
-            <h3 class="person__name">Vasilisova Vasilisa</h3>
-            <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <li class="team__item doctor">
+            <img class="doctor__img" src="img/person-ivan.jpg" srcset="img/person-ivan.jpg 1x, img/person-ivan@2.jpg 2x" alt="ivan" width="300" height="350">
+            <h3 class="doctor__name">Ivan Ivanov</h3>
+            <div class="doctor__profession">Expert-class dentist</div>
           </li>
-          <li class="feedback__item person">
-            <img class="person__img" src="img/vasili.jpg" srcset="img/vasili.jpg 1x, img/vasili@2.jpg 2x" alt="ivan" srcset="vasili" width="404" height="270">
-            <h3 class="person__name">Petrov Petr</h3>
-            <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <li class="team__item doctor">
+            <img class="doctor__img" src="img/person-larisa.jpg" srcset="img/person-larisa.jpg 1x, img/person-larisa@2.jpg 2x" alt="larisa" width="300" height="350">
+            <h3 class="doctor__name">Larisa Vasileva</h3>
+            <div class="doctor__profession">Expert-class dentist</div>
           </li>
         </ul>
 
-        <a href="#" class="feedback__link button">
-          Give feedback
-        </a>
-
-    </div>
-    </div>
-</section>
-  <!-- MAP -->
-  <section class="map">
-    <div class="container bg__logo">
-      <h2 class="map__heading">
-        Convenient location and working hours
-      </h2>
-      <p class="map__text">
-        Our clinic is located in the center of the Sverdlovsk district, at the address: Raboche-Krestyanskaya Street 6. From the bus stop “Family” hypermarket to our dental clinic - 5 minutes on foot.
-      </p>
-     </div>
-    <a href="https://goo.gl/maps/mX6zmpX65VGduRyg8" class="map__link">
-      <img src="img/map.jpg" srcset="img/map.jpg 1x, img/map@2.jpg 2x" alt="map" class="map__img" width="2202" height="760">
-    </a>
-    <form class="appointment__form form location__form" action="https://echo.htmlacademy.ru" method="POST" aria-label="dentist form">
-      <h3 class="from__heading">appointment</h3>
-      <div class="from__all">
-        <label for="name" class="visually-hidden">name</label>
-        <input class="from__input from__name" type="text" name="name" placeholder="Name" id="name" required>
+        <button class="services__button services__button-right" type="button" aria-label="Next"></button>
       </div>
-      <div class="from__all">
-        <label for="tel" class="visually-hidden">phone</label>
-        <input class="from__input from__tel" type="tel" name="phone" placeholder="Phone" id="tel" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
-      </div>
-      <div class="form__all form__con-wrapper">
-        <label class="form__label" aria-label="confirmation">
-          <span class="form__text">I give my consent to the storage and processing of personal data</span>
-          <input class="from__check" type="checkbox" name="check" required>
-          <span class="form__check-icon"></span>
-        </label>
-      </div>
-      <button class="from__button button" type="submit">Appointment</button>
-    </form>
+    </section>
+    <!-- QUALITY -->
+    <section class="quality">
+      <div class="quality__container  container">
+        <h2 class="quality__heading bg__logo">We are confident in the quality of our services</h2>
+        <p class="quality__text">About 50 thousand patients opted for the Dental Practice dental center.
+          People come to us as a family, because trust and comfort are important for the health of loved ones. And we provide this:
+          - You do not need to go anywhere else - the center provides the whole range of dental services - treatment and diagnosis, as well as prevention.
+          - We have reasonable prices. You pay for quality. And you will be offered different opportunities.
+          - We also do not pursue cheapness. This is our reasonable choice - only good materials should be used in the treatment, and professionals should deal with it.
+          - For regular customers discounts from 5 to 20%.</p>
+
+          <div class="quality__box">
+            <img   src="img/syg.jpg" srcset="img/syg.jpg 1x, img/syg@2.jpg 2x" alt="sygnatura"  class="quality__sygnatura" width="85" height="70">
+            <button class="quality__button button">
+              Learn more
+            </button>
+          </div>
+        </div>
+        <img class="quality__img" src="img/gurl_hand.jpg" srcset="img/gurl_hand.jpg 1x, img/gurl_hand@2.jpg 2x" alt="girl">
+      </section>
+
+      <!-- FEEDBACK -->
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__container">
+            <div class="feeback__box bg__logo">
+              <h2 class="feedback__heading">Reviews from our patients</h2>
+              <p class="feedback__text ">Here are the latest reviews from our regular customers.
+                You can also leave your review by clicking on the link below</p>
+              </div>
+            </div>
+            <div class="feedback__bottom">
+              <ul class="feedback__list container">
+                <li class="feedback__item person">
+                  <img class="person__img" src="img/ivan.jpg" srcset="img/ivan.jpg 1x, img/ivan@2.jpg 2x" alt="ivan" width="404" height="270">
+                  <h3 class="person__name">Ivanov Ivan</h3>
+                  <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </li>
+                <li class="feedback__item person">
+                  <img class="person__img" src="img/vasili.jpg" srcset="img/vasili.jpg 1x, img/vasili@2.jpg 2x" alt="ivan" width="404" height="270">
+                  <h3 class="person__name">Vasilisova Vasilisa</h3>
+                  <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </li>
+                <li class="feedback__item person">
+                  <img class="person__img" src="img/vasili.jpg" srcset="img/vasili.jpg 1x, img/vasili@2.jpg 2x" alt="ivan"  width="404" height="270">
+                  <h3 class="person__name">Petrov Petr</h3>
+                  <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </li>
+              </ul>
+              <a href="#" class="feedback__link button">
+                Give feedback
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- MAP -->
+        <section class="map">
+          <div class="container bg__logo">
+            <h2 class="map__heading">
+              Convenient location and working hours
+            </h2>
+            <p class="map__text">
+              Our clinic is located in the center of the Sverdlovsk district, at the address: Raboche-Krestyanskaya Street 6. From the bus stop “Family” hypermarket to our dental clinic - 5 minutes on foot.
+            </p>
+          </div>
+          <a href="https://goo.gl/maps/mX6zmpX65VGduRyg8" class="map__link">
+            <img src="img/map.jpg" srcset="img/map.jpg 1x, img/map@2.jpg 2x" alt="map" class="map__img" width="2202" height="760">
+          </a>
+          <form class="appointment__form form location__form" action="https://echo.htmlacademy.ru" method="POST" aria-label="dentist form">
+            <h3 class="from__heading">appointment</h3>
+            <div class="from__all">
+              <label for="name" class="visually-hidden">name</label>
+              <input class="from__input from__name" type="text" name="name" placeholder="Name" id="name" required>
+            </div>
+            <div class="from__all">
+              <label for="tel" class="visually-hidden">phone</label>
+              <input class="from__input from__tel" type="tel" name="phone" placeholder="Phone" id="tel" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
+            </div>
+            <div class="form__all form__con-wrapper">
+              <label class="form__label" aria-label="confirmation">
+                <span class="form__text">I give my consent to the storage and processing of personal data</span>
+                <input class="from__check" type="checkbox" name="check" required>
+                <span class="form__check-icon"></span>
+              </label>
+            </div>
+            <button class="from__button button" type="submit">Appointment</button>
+          </form>
+        </section>
 
 
-  </section>
 
-
-
-  <script src="js/main.js"></script>
-</body>
-</html>
+        <script src="js/main.js"></script>
+      </body>
+      </html>

@@ -103,25 +103,25 @@
 }
 // @media only screen and (max-width: 830px) {
 
-//   .site-header__logo {
-//     margin-top: 70px;
-//   }
-// }
-@media only screen and (max-width: 375px) {
+  //   .site-header__logo {
+    //     margin-top: 70px;
+    //   }
+    // }
+    @media only screen and (max-width: 375px) {
 
-  .sitenav__item {
-    display: none;
-  }
-  .sitenav__item-icon {
-    display: none;
-  }
+      .sitenav__item {
+        display: none;
+      }
+      .sitenav__item-icon {
+        display: none;
+      }
 
-  .site-header__logo {
-    margin: 0;
-    padding: 0;
-    margin-top: 23px;
-    margin-bottom: 24px;
-  }
-}
+      .site-header__logo {
+        margin: 0;
+        padding: 0;
+        margin-top: 23px;
+        margin-bottom: 24px;
+      }
+    }
 
 

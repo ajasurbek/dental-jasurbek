@@ -1,67 +1,67 @@
 .form {
-	flex-grow: 1;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -60px;
-	padding: 25px 34px 18px;
-	background-color: $blue;
-	border-radius: 5px;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -60px;
+  padding: 25px 34px 18px;
+  background-color: $blue;
+  border-radius: 5px;
 }
 .from__heading {
-	margin: 0;
-	margin-bottom: 29px;
-	font-size: 36px;
-	line-height: 42px;
-	font-weight: 500;
-	color: #ffffff;
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #ffffff;
 }
 .from__all {
-	width: 100%;
-	margin-bottom: 12px;
+  width: 100%;
+  margin-bottom: 12px;
 }
 .form__check-icon {
-	display: block;
-	width: 35px;
-	height: 35px;
-	background-image: url("../img/icon-unchecked.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/icon-unchecked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .from__input {
-	width: 100%;
-	padding: 21px 14px;
-	background-color: transparent;
-	border: 1px solid #ffffff;
-	border-radius: 5px;
-	color: #ffffff;
+  width: 100%;
+  padding: 21px 14px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
 }
 .from__button {
-	min-width: 100px;
-	padding: 17px 63px;
-	text-transform: capitalize;
-	background-color: $light-yellow;
-	color: $black;
-	border: none;
+  min-width: 100px;
+  padding: 17px 63px;
+  text-transform: capitalize;
+  background-color: $light-yellow;
+  color: $black;
+  border: none;
 }
 .form__text-wrapper {
-	order: 1;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	margin-top: 22px;
+  order: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 22px;
 }
 .form__text {
-	max-width: 260px;
-	line-height: 21px;
-	font-weight: 300;
-	color: #ffffff;
+  max-width: 260px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #ffffff;
 }
 .from__check {
-	display: none;
+  display: none;
 }
 .from__check:checked + .form__check-icon {
   width: 35px;
@@ -69,10 +69,10 @@
   background-image: url("../../img/ckeckks.svg");
 }
 .form__label {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
 }
 .form__check-icon {
   border: 1px solid $white;

@@ -46,16 +46,16 @@
   margin-bottom: -250px;
 }
 .controllers {
-	position: absolute;
-	bottom: 147px;
-	left: auto;
-	align-self: flex-start;
+  position: absolute;
+  bottom: 147px;
+  left: auto;
+  align-self: flex-start;
 }
 .controllers__button {
-	background-color: $dark-yellow;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+  background-color: $dark-yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .controllers__button:hover {
   opacity: 0.8;
@@ -65,19 +65,19 @@
 }
 .controllers__button-left {
   margin-top: 100px;
-	width: 42px;
-	height: 70px;
-	background-image: url("../../img/left-arrow.svg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 12px 22px;
+  width: 42px;
+  height: 70px;
+  background-image: url("../../img/left-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 12px 22px;
 }
 .controllers__button-right {
-	width: 70px;
-	height: 70px;
-	margin-left: 9px;
-	background-image: url("../../img/right-arrow.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25px 22px;
+  width: 70px;
+  height: 70px;
+  margin-left: 9px;
+  background-image: url("../../img/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px 22px;
 }

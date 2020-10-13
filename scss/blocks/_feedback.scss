@@ -45,36 +45,36 @@
   margin-left: 20px;
 }
 .feedback__item:first-child {
- margin-left: 0;
+  margin-left: 0;
 }
 .feedback__item:last-child {
   margin-right: 0;
- }
- .person__name {
-   margin: 0;
-   padding: 0;
-   margin-top: 31px;
-   margin-bottom: 13px;
- }
- .person__text {
-   margin: 0;
-   padding: 0;
+}
+.person__name {
+  margin: 0;
+  padding: 0;
+  margin-top: 31px;
+  margin-bottom: 13px;
+}
+.person__text {
+  margin: 0;
+  padding: 0;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 49px;
- }
- .feedback__link {
-   margin-left: 440px;
-   padding: 24px 76px;
-   border: 2px solid #0055B8;
-   margin-bottom: 160px;
-   border-radius: 5px;
- }
- .feedback__link:hover {
-   background-color: #0055B8;
-   color: $white;
- }
- .feedback__link:active {
-   opacity: 0.6;
+}
+.feedback__link {
+  margin-left: 440px;
+  padding: 24px 76px;
+  border: 2px solid #0055B8;
+  margin-bottom: 160px;
+  border-radius: 5px;
+}
+.feedback__link:hover {
+  background-color: #0055B8;
+  color: $white;
+}
+.feedback__link:active {
+  opacity: 0.6;
 }
