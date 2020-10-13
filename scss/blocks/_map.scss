@@ -1,0 +1,24 @@
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map__heading {
+  margin: 0;
+  padding: 0;
+  max-width: 637px;
+  padding-bottom: 13px;
+  text-align: center;
+}
+.map__text {
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.location__form {
+  margin-top: -500px;
+  margin-right: 780px;
+}

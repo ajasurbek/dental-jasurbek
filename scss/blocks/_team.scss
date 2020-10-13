@@ -1,0 +1,44 @@
+.team__container {
+  margin-top: 78px;
+}
+.team__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 13px;
+  max-width: 299px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+.team__text {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #4D4D4D;
+  max-width: 875px;
+  text-align: center;
+}
+.team__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.team__item {
+  margin-left: 26px;
+  margin-right: 26px;
+}
+.doctor__name {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.team__bottom {
+  display: flex;
+  align-items: center;
+}

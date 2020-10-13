@@ -1,0 +1,62 @@
+.appointment {
+  margin-top: 322px;
+}
+.appointment {
+	margin-bottom: 70px;
+}
+.appointment__container {
+	display: flex;
+}
+.appointment__list {
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+	display: flex;
+}
+.appointment__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 300px;
+	padding: 39px 37px 56px;
+	border-radius: 5px;
+	color: $black;
+	background-color: $dark-yellow;
+
+	&:last-child {
+		background-color: #ffe040;
+	}
+	&:last-child::before {
+		background-image: url("../../img/icon-protez.png");
+	}
+	&::before {
+		content: "";
+		width: 87px;
+		height: 87px;
+		margin-bottom: 20px;
+		background-image: url("../../img/icon-treatment.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+}
+.appointment__heading {
+	margin: 0;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+}
+.appointment__text {
+	font-weight: 300;
+}
+// ============================
+@include retina() {
+	.appointment__item {
+		&:last-child::before {
+			background-image: url("../../img/icon-protez@2x.png");
+		}
+		&::before {
+			background-image: url("../../img/icon-treatment@2x.png");
+		}
+	}
+}

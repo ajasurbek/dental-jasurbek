@@ -1,0 +1,100 @@
+.site-header {
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.sitenav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+  background-color: $blue;
+  border-radius: 5px;
+
+}
+.site-header__sitenav {
+  background-color: $blue;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.sitenav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 12px;
+  margin-right: 12px;
+  list-style-type: none;
+}
+.sitenav__item {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.sitenav__link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  font-size: 18px;
+  line-height: 21px;
+  color: $white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sitenav__link:hover {
+  color: $dark-yellow;
+}
+.sitenav__link:active {
+  opacity: 0.6;
+}
+
+.sitenav__list-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: 33px;
+  list-style-type: none;
+}
+
+.vk-img {
+  padding-top: 21px;
+  padding-bottom: 19px;
+}
+
+.instagram-img {
+  padding-top: 27px;
+  padding-bottom: 25px;
+}
+
+.tweeter-img {
+  padding-top: 26px;
+  padding-bottom: 24px;
+}
+
+.sitenav__item-icon {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.sitenav__item-icon:hover {
+  opacity: 0.8;
+
+}
+.sitenav__item-icon:active {
+  opacity: 0.6;
+}
+
+.site-header__toggler {
+  display: none;
+}
+
